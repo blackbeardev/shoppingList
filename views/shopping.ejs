@@ -1,0 +1,16 @@
+<% include partials/header %>
+
+<h1>The shopping lists</h1>
+
+<% lists.forEach(function(list) { %>
+    <h3><%=list.title%></h3>
+    <h5><%=list.date%></h5>
+    <p><%=list.content%></p>
+    <button><a href="/lists/<%=list._id%>">Edit/Delete List</a></button>
+<% }); %>
+
+<div>
+    <button><a href="/lists/new">Add a new list</a></button>
+</div>
+
+<% include partials/footer %>
