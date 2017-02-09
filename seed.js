@@ -29,15 +29,15 @@ var seedDB = function() {
             console.log(err);
             console.log("All entries removed!");
         }
-        dummyList.forEach(function(list) {
-            List.create(list, function(err, newlyCreated) {
-                if(err) {
-                    console.log(err);
-                } else {
-                    console.log("New list added");
-                }
-            });
-        });
+        // dummyList.forEach(function(list) {
+        //     List.create(list, function(err, newlyCreated) {
+        //         if(err) {
+        //             console.log(err);
+        //         } else {
+        //             console.log("New list added");
+        //         }
+        //     });
+        // });
     });
 };
 

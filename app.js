@@ -27,7 +27,7 @@ mongoose.connect("mongodb://localhost/shoppinglist");
 
 
 //Call the seedDB function
-seedDB();
+// seedDB();
 
 //==================
 // ROUTES
