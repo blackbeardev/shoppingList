@@ -1,0 +1,41 @@
+body {
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_title {
+    font-size: 70px;
+    text-align: center;
+}
+
+
+.main_border {
+    text-align: center;
+    padding: 3em 0;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.main_button {
+    margin-top: 2em;
+}
+
+button {
+    padding: 1em;
+    font-size: 20px;
+    background: #187AC8;
+    border-radius: 50px;
+}
+
+a {
+    color: #C7C4B7;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 2em;
+}
+

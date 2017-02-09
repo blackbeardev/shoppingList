@@ -1,15 +1,18 @@
 <% include partials/header %>
 
-<h1>The shopping lists</h1>
+<h1 class="main_title">The shopping lists</h1>
 
 <% lists.forEach(function(list) { %>
-    <h3><%=list.title%></h3>
-    <h5><%=list.date%></h5>
-    <p><%=list.content%></p>
-    <button><a href="/lists/<%=list._id%>">Edit/Delete List</a></button>
+    <div class="main_border">
+        <h3><%=list.title%></h3>
+        <h5><%=list.date%></h5>
+        <p><%=list.content%></p>
+        <button><a href="/lists/<%=list._id%>">Edit/Delete List</a></button>
+    </div>
+
 <% }); %>
 
-<div>
+<div class="main_button">
     <button><a href="/lists/new">Add a new list</a></button>
 </div>
 
